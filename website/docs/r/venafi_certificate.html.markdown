@@ -38,7 +38,7 @@ The following arguments are supported:
 * `rsa_bits` - (Optional, integer) Number of bits to use when generating an RSA key.
   Applies when algorithm=RSA.  Defaults to 2048.
 
-* `ecsa_curve` - (Optional, string) Elliptic curve to use when generating an ECDSA
+* `ecdsa_curve` - (Optional, string) Elliptic curve to use when generating an ECDSA
   key pair.  Applies when algorithm=ECDSA.  Defaults to "P521".
 
 * `san_dns` - (Optional, set of strings) List of DNS names to use as alternative
